@@ -2,7 +2,7 @@
 # Avoids bulking out general scripts when this info is required across multiple scripts for the same purposes
 # MA 07/08/2017
 
-#Need to update so have anon hosps and RC names
+#Ordered lists of anon hosps and RC names for specified plotting order
 Hospital_Anon_geo_order <- c(
 "South-WestD"  ,          "South-WestA"  ,          "South-WestC"      ,      "South-WestB"    ,        "SouthCentralA"  ,       
 "South-EastA"  ,          "South-EastB"    ,        "South-EastC" ,           "South-EastD",            "East-1D"  ,             
