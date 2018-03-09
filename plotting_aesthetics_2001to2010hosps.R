@@ -81,7 +81,7 @@ Quarters<-c("First","Second","Third","Fourth")
 #### Second, lists created by MA to apply these orders to ggplot, and extras for nice ggplot layouts (themes) ####
 
 #set-up formatting for plotting in loop 
-#general ggplot theme - COULD MAKE THIS THEME ENCOMPASS MORE OF THE PLOTTING AESTHETICS WHICH ARE REPEATED (& name it sthg else more specific).
+#general ggplot theme
 my_theme <- theme(panel.border = element_blank(),
                   panel.background = element_blank(),
                   panel.grid.major = element_blank(), 
