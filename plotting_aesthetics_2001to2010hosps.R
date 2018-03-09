@@ -103,10 +103,8 @@ boxplot_theme <- theme(panel.border = element_blank(),
 
 #Creating named colour vector for use in ggplot - hosp names anon version
 #RC colours repeated correct num times in correct order according to hosp order
-ggplot_cols_anon <- ggplot_colours <- RCcolsHospGeoOrder 
-#Naming the RC colours according to hosp, so ggplot calls right RC colour by hosp
-names(ggplot_colours) <- HospGeoOrder2 
-#combining into appropriately named colour vector
+ggplot_cols_anon <- RCcolsHospGeoOrder 
+#Naming the RC colours according to hosp, so ggplot calls right RC colour by hosp i.e. making appropriately named colour vector
 names(ggplot_cols_anon) <- Hospital_Anon_geo_order
 
 #need RC list order to be same order as plotting order to make legend label correctly
