@@ -5,6 +5,9 @@ This repository will contain the R scripts containing the methods in [paper refe
 
 # Content
 Main script
-Aesthetics files required: 
+
+Aesthetics files required:
+
 -- Folder: hospital colour code images
+
 -- Script: plotting_aesthetics_2001to2010hosps.R
